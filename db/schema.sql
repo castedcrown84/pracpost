@@ -1,0 +1,2 @@
+DROP DATABASE IF EXISTS prachab;
+CREATE DATABASE prachab;
