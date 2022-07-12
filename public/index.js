@@ -8,7 +8,7 @@ event.preventDefault()
 const username = document.getElementById('username').value
 const email = document.getElementById("email").value
 
- const response = await fetch('/api/user',{
+ const response = await fetch('/api/user/signin', {
     method: 'POST',
     body: JSON.stringify({username, email,}),
     headers: {
